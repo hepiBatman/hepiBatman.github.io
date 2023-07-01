@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^api\.lekatin\.com$ [NC]
-RewriteRule ^(.*) http://api.publicapis.org/$1 [L,R]
